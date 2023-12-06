@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
+    "start": "node src/server.js",
     "test": "jest",
-    "lint": "eslint src/** test/** --fix"
+    "lint": "eslint src/** test/** --fix",
+    "secure-mode": "jest --watch"
   },
   "keywords": [],
   "author": "",
